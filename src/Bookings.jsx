@@ -1,24 +1,30 @@
-// import Header from './components/Header';
-// import Footer from './components/Footer';
-// import Title from './components/Title';
-// import './Bookings.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Title from './components/Title';
+import './Bookings.css';
 
 function Bookings() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className="bookings-container">
-        {/* <Title titleName="Bookings" /> */}
+        <Title titleName="Bookings" />
+        <iframe 
+        src="https://elisasnails.simplybook.me/v2/" 
+        width="100%" 
+        height="600px" 
+        frameborder="0">
+      </iframe>
 
         <div className='intro'>
           <section className="booking-info">
             <h3>How to Book</h3>
-            <p>
+            {/* <p>
               To schedule an appointment, please contact me via Instagram DM 
               <a href="https://instagram.com/vanessamercedes_nails" target="_blank" rel="noopener noreferrer">
                 @vanessamercedes_nails
               </a>, or send an email to <a href="mailto:vanessa@nails.com">vanessa@nails.com</a>.
-            </p>
+            </p> */}
             <p>Appointments are confirmed once a deposit is received.</p>
 
             <h3>Appointment Preparation</h3>
@@ -27,8 +33,8 @@ function Bookings() {
 
             <p>If you have any nail art ideas or inspiration, bring along your photos to the appointment.</p>
 
-            <h3>Payment Methods</h3>
-            <p>Payment via cash only.</p>
+            {/* <h3>Payment Methods</h3>
+            <p>Payment via cash only.</p> */}
             <h3>Booking Policies</h3>
             <br></br>
 
@@ -39,7 +45,7 @@ function Bookings() {
 
             <h4>Rescheduling</h4>
             <p>
-              Rescheduling is allowed up to 24 hours before your appointment without penalty. After that, rescheduling will be treated as a late cancellation.
+              Rescheduling is allowed up to 48 hours before your appointment without penalty. After that, rescheduling will be treated as a late cancellation.
             </p>
 
             <h4>Late Fees</h4>
@@ -61,13 +67,19 @@ function Bookings() {
             <p>
               A $10 deposit is required to secure your booking. This deposit will be deducted from your final payment.
             </p>
+
+            <h4>Premises</h4>
+            <p>
+              No smoking or vaping inside of outside nearby the property.
+            </p>
+
             <div id="centered">
               <h3>Thank you!</h3>
             </div>
           </section>
         </div>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

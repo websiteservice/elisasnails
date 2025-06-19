@@ -1,7 +1,7 @@
-// import './Homepage.css';
-// import PhotoCarousel from './components/PhotoCarousel';
-// import Header from './components/Header';
-// import Footer from './components/Footer';
+import './Homepage.css';
+import PhotoCarousel from './components/PhotoCarousel';
+import Header from './components/Header';
+import Footer from './components/Footer';
 // import vanessaImg from './assets/vanessa.jpeg';
 
 
@@ -9,7 +9,7 @@
 function Homepage() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
 
       <main className="homepage-content">
         <h1 className="Heading">Elisa's Nails</h1>
@@ -37,7 +37,7 @@ function Homepage() {
         </section>
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

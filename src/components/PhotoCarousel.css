@@ -1,0 +1,29 @@
+/* Main carousel images */
+.nailsImages {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  /* Carousel container */
+  .divy {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Centering the carousel */
+  .divy2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Fix thumbnail previews */
+  .carousel .thumbs-wrapper {
+    margin: 10px 0 0 0;
+  }
+  
+  .carousel .thumbs img {
+    height: 60px !important;
+    object-fit: cover;
+  }
+  
