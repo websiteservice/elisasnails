@@ -123,3 +123,123 @@
   }
   
   
+  .pricing-card2 {
+    max-width: 500px;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .line-item {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .line-item.description {
+    justify-content: flex-start;
+    font-size: 0.85em;
+    color: #666;
+    border-bottom: none;
+    padding-left: 8px;
+  }
+  
+  .service-name {
+    flex-grow: 1;
+  }
+  
+  .price {
+    white-space: nowrap;
+    /* margin-left: 10px; */
+    font-size: 18pt;
+  }
+  
+  .pricing-card2 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 6px rgba(0,0,0,0.05); */
+    max-width: 500px;
+    margin: 0 auto 2rem;
+    
+  }
+
+  .pricing-card2 h2 {
+    margin: 0.5em;
+    color: #333;
+  }
+  
+  .pricing-card2 h3, .pricing-card h4 {
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .length-prices, .addon-prices {
+    font-size: 1.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .length-prices li, .addon-prices li {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 6px 0; */
+    border-bottom: 1px solid #eee;
+  }
+  
+  .label {
+    font-weight: 500;
+    /* color: #444; */
+    color: #555555;
+  }
+  
+  .price {
+    font-weight: 600;
+    /* color: #111; */
+    font-size: 1.25rem;
+  }
+  
+  .note {
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .gift-voucher-card {
+    background: linear-gradient(135deg, #fff0f5, #ffe4ec);
+    border: 2px dashed #f06292;
+    border-radius: 16px;
+    padding: 30px 25px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(240, 98, 146, 0.15);
+    margin: 0 auto 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gift-voucher-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(240, 98, 146, 0.3);
+  }
+  
+  .gift-voucher-card h2 {
+    color: #c2185b;
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+  
+  .voucher-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #d81b60;
+    margin-bottom: 10px;
+  }
+  
+  .gift-voucher-card p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

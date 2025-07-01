@@ -16,7 +16,7 @@ function Contact() {
         </p>
 
         <div className="contact-details">
-          <p><strong>Email:</strong> elisasnails@gmail.com</p>
+          <p><strong>Email:</strong> elisasbusinessemail@gmail.com</p>
           {/* <p><strong>Phone:</strong> 021 </p> */}
           <p><strong>Instagram:</strong>
             <a 

@@ -32,6 +32,7 @@ function Bookings() {
             <p>Please arrive with clean hands and nails. Remove gel or acrylic nails if applicable before appointment.</p>
 
             <p>If you have any nail art ideas or inspiration, bring along your photos to the appointment.</p>
+            <p>If you have specific nail decorations or colour polish you want to use from home, bring them along to the appointment. (Note no discounts will be applied)</p>
 
             {/* <h3>Payment Methods</h3>
             <p>Payment via cash only.</p> */}

@@ -2,7 +2,7 @@
   "name": "elisasnails",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kiwihorsegirl.github.io/elisasnails",
+  "homepage": "https://websiteservice.github.io/elisasnails",
   "type": "module",
   "scripts": {
     "dev": "vite",
