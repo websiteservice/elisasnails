@@ -3,12 +3,18 @@ import PhotoCarousel from './components/PhotoCarousel';
 import Header from './components/Header';
 import Footer from './components/Footer';
 // import vanessaImg from './assets/vanessa.jpeg';
+import { Helmet } from 'react-helmet';
 
 
 
 function Homepage() {
   return (
     <>
+      <Helmet>
+        <title>Elisa's Nails | Home</title>
+        <meta name="description" content="Get professional nail services in Hamilton by Elisa's Nails. Affordable, quality manicures and pedicures tailored to you." />
+      </Helmet>
+
       <Header />
 
       <main className="homepage-content">

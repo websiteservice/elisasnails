@@ -2,10 +2,15 @@ import './Pricing.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Title from './components/Title';
+import { Helmet } from 'react-helmet';
 
 function Pricing() {
   return (
     <>
+      <Helmet>
+          <title>Elisa's Nails | Pricing</title>
+          <meta name="description" content="Affordable and transparent pricing for Elisa's Nails professional manicure and pedicure services in Hamilton. Choose the right package for you." />
+      </Helmet>
       <Header />
       <Title titleName="Services" />
       <main className="pricing-container">

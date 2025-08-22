@@ -2,10 +2,15 @@ import './Contact.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Title from './components/Title';
+import { Helmet } from 'react-helmet';
 
 function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Elisa's Nails | Contact Us</title>
+        <meta name="description" content="Get in touch with Elisa's Nails in Hamilton for professional nail services. Book your appointment or ask questions via phone or email." />
+      </Helmet>
       <Header />
 
       <main className="contact-container">

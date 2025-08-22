@@ -1,11 +1,16 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Title from './components/Title';
+import { Helmet } from 'react-helmet';
 import './Bookings.css';
 
 function Bookings() {
   return (
     <>
+      <Helmet>
+        <title>Elisa's Nails | Bookings</title>
+        <meta name="description" content="Get professional nail services in Hamilton by Elisa's Nails. Affordable, quality manicures and pedicures tailored to you." />
+      </Helmet>
       <Header />
       <main className="bookings-container">
         <Title titleName="Bookings" />
